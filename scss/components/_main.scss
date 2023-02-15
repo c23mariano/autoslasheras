@@ -1,0 +1,258 @@
+.bienvenidos{
+    width: 100%;
+    height: 75vh;
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    div {
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: 'Sofia Sans Condensed', sans-serif;
+            font-style: italic;
+            color: rgb(189, 11, 11);
+            text-align: center;
+        }
+        .parrafotitulo{
+            font-size: 30px;
+            font-family: 'Sofia Sans Condensed', sans-serif;
+            font-style: italic;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+.div-titulo{
+    background-color: #000000;
+    overflow: hidden;
+    .titulo{
+        font-size: 30px;
+        font-family: 'Sofia Sans Condensed', sans-serif;
+        background-color: #000000;
+        padding: 10px;
+        color: rgb(189, 11, 11);
+        display: flex; 
+        justify-content: center; 
+        text-align: center; 
+        width: auto;
+        display: inline-block;
+        animation: move 6s linear infinite;
+    }
+    .titulo-principal{
+        font-size: 30px;
+        font-family: 'Sofia Sans Condensed', sans-serif;
+        background-color: #000000;
+        padding: 10px;
+        color: rgb(189, 11, 11);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        display: inline-block;
+        animation: move 6s linear infinite;
+        overflow: hidden;
+    }
+}
+.km{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(189, 11, 11);
+    width: 100%;
+    div{
+        border: 1px solid rgb(189, 11, 11);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        width: 300px;
+        margin: 15px;
+        img{
+            width: 100%;
+        }
+        h3{
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(189, 11, 11);
+            padding: 5px 10px;
+            border: 1px solid rgba(48, 45, 45, 0.411);
+        
+        }
+    }
+    
+}
+.ubicacion{
+    text-align: center;
+    color: rgb(189, 11, 11);
+}
+.renault{
+    text-align: center;
+    overflow: hidden;
+    .titulo-0km{
+        font-size: 30px;
+        font-family: 'Sofia Sans Condensed', sans-serif;
+        padding: 15px;
+        height: 15px;
+        color: rgb(189, 11, 11);
+        display: flex;
+        justify-content: center;
+        text-align: center; 
+        animation: move 9s ease-in infinite;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+        grid-auto-flow: dense;
+        .grid-item-1{
+            background-image: url(../img/sandero1.jpg);
+        }
+        .grid-item-2{
+            background-image: url(../img/sandero2.jpg);
+        }
+        .grid-item-3{
+            background-image: url(../img/sandero3.jpg);
+        }
+        .grid-item-4{
+            background-image: url(../img/sandero4.jpg);
+        }
+        .grid-item-5{
+            background-image: url(../img/sandero5.jpg);
+        }
+        .grid-item-6{
+            background-image: url(../img/sandero6.jpg);
+        }
+        .grid-item-7{
+            background-image: url(../img/kangoo1.jpg);
+        }
+        .grid-item-8{
+            background-image: url(../img/kangoo2.jpg);
+        }
+        .grid-item-9{
+            background-image: url(../img/kangoo3.jpg);
+        }
+        .grid-item-10{
+            background-image: url(../img/kangoo4.jpg);
+        }
+        .grid-item-11{
+            background-image: url(../img/kangoo5.jpg);
+        }
+        .grid-item-12{
+            background-image: url(../img/kangoo6.jpg);
+        }
+        [class*="grid-item"]{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #03afff;
+            border-radius: 2px;
+            transition: transform 0.3s ease-in-out;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        [class*="grid-item"]:hover {
+            filter: opacity(0.9);
+            transform: scale(1.05);
+        }
+    }
+}
+.destacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(189, 11, 11);
+    width: 100%;
+    margin: auto;   
+    div{
+        border: 1px solid rgb(189, 11, 11);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        width: 300px;
+        margin: 15px;
+        img{
+            width: 100%;  
+        }
+        h3{
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(189, 11, 11);
+            padding: 5px 10px;
+            border: 1px solid rgba(48, 45, 45, 0.411);
+        
+        }
+    }
+}
+
+.imghistoria{
+    width: 100%;
+    height: 75vh;
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia{
+    background-color: whitesmoke;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 35px;
+    width: 100%;
+    h3{
+        font-size: 35px;
+        text-align: center;
+        justify-content: center;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.formulario{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-image: url(../img/fondo_contacto);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@keyframes move{
+    0% {
+        transform: translate(-10vw, 0%);
+    }
+
+    100% {
+        transform: translate(110vw, 0);
+    }
+}

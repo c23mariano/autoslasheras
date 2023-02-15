@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,100;1,100&display=swap");
+.div-titulo .titulo-principal {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.div-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.km {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.destacados div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.width-1200 {
+  max-width: 1200px;
+  margin: auto; }
+
+.gradient {
+  background: #000000;
+  background: linear-gradient(357deg, black 0%, black 0%, rgba(255, 255, 255, 0.493435) 100%); }
+
+header {
+  background-color: #F8F9FA; }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  cursor: pointer; }
+
+.bienvenidos {
+  width: 100%;
+  height: 75vh;
+  background-image: url("../img/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .bienvenidos div h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: italic;
+    color: #bd0b0b;
+    text-align: center; }
+  .bienvenidos div .parrafotitulo {
+    font-size: 30px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center; }
+
+.div-titulo {
+  background-color: #000000;
+  overflow: hidden; }
+  .div-titulo .titulo {
+    font-size: 30px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: #000000;
+    padding: 10px;
+    color: #bd0b0b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    animation: move 6s linear infinite; }
+  .div-titulo .titulo-principal {
+    font-size: 30px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    background-color: #000000;
+    padding: 10px;
+    color: #bd0b0b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    animation: move 6s linear infinite;
+    overflow: hidden; }
+
+.km {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #bd0b0b;
+  width: 100%; }
+  .km div {
+    border: 1px solid #bd0b0b;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    margin: 15px; }
+    .km div img {
+      width: 100%; }
+    .km div h3 {
+      margin-bottom: 10px; }
+    .km div a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: #bd0b0b;
+      padding: 5px 10px;
+      border: 1px solid rgba(48, 45, 45, 0.411); }
+
+.ubicacion {
+  text-align: center;
+  color: #bd0b0b; }
+
+.renault {
+  text-align: center;
+  overflow: hidden; }
+  .renault .titulo-0km {
+    font-size: 30px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    padding: 15px;
+    height: 15px;
+    color: #bd0b0b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: move 9s ease-in infinite; }
+  .renault .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense; }
+    .renault .grid-container .grid-item-1 {
+      background-image: url(../img/sandero1.jpg); }
+    .renault .grid-container .grid-item-2 {
+      background-image: url(../img/sandero2.jpg); }
+    .renault .grid-container .grid-item-3 {
+      background-image: url(../img/sandero3.jpg); }
+    .renault .grid-container .grid-item-4 {
+      background-image: url(../img/sandero4.jpg); }
+    .renault .grid-container .grid-item-5 {
+      background-image: url(../img/sandero5.jpg); }
+    .renault .grid-container .grid-item-6 {
+      background-image: url(../img/sandero6.jpg); }
+    .renault .grid-container .grid-item-7 {
+      background-image: url(../img/kangoo1.jpg); }
+    .renault .grid-container .grid-item-8 {
+      background-image: url(../img/kangoo2.jpg); }
+    .renault .grid-container .grid-item-9 {
+      background-image: url(../img/kangoo3.jpg); }
+    .renault .grid-container .grid-item-10 {
+      background-image: url(../img/kangoo4.jpg); }
+    .renault .grid-container .grid-item-11 {
+      background-image: url(../img/kangoo5.jpg); }
+    .renault .grid-container .grid-item-12 {
+      background-image: url(../img/kangoo6.jpg); }
+    .renault .grid-container [class*="grid-item"] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #03afff;
+      border-radius: 2px;
+      transition: transform 0.3s ease-in-out;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .renault .grid-container [class*="grid-item"]:hover {
+      filter: opacity(0.9);
+      transform: scale(1.05); }
+
+.destacados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #bd0b0b;
+  width: 100%;
+  margin: auto; }
+  .destacados div {
+    border: 1px solid #bd0b0b;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    margin: 15px; }
+    .destacados div img {
+      width: 100%; }
+    .destacados div h3 {
+      margin-bottom: 10px; }
+    .destacados div a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: #bd0b0b;
+      padding: 5px 10px;
+      border: 1px solid rgba(48, 45, 45, 0.411); }
+
+.imghistoria {
+  width: 100%;
+  height: 75vh;
+  background-image: url("../img/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.historia {
+  background-color: whitesmoke;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding: 35px;
+  width: 100%; }
+  .historia h3 {
+    font-size: 35px;
+    text-align: center;
+    justify-content: center; }
+  .historia p {
+    font-size: 20px; }
+
+.formulario {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  background-image: url(../img/fondo_contacto);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+@keyframes move {
+  0% {
+    transform: translate(-10vw, 0%); }
+  100% {
+    transform: translate(110vw, 0); } }
+
+footer div {
+  background-color: black; }
+  footer div img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    transition: all .3s ease-in-out; }
+    footer div img:hover {
+      transform: scale(1.5); }
+
+@media screen and (min-width: 600px) {
+  .renault .grid-container .grid-item-3 {
+    grid-column: span 2; }
+  .renault .grid-container .grid-item-9 {
+    grid-column: span 2; }
+  .renault .grid-container .grid-item-2 {
+    grid-row: span 2; }
+  .renault .grid-container .grid-item-7 {
+    grid-row: span 2; } }

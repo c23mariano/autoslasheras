@@ -1,0 +1,44 @@
+
+// VARIABLES
+$color-principal: rgb(189, 11, 11);
+$color-secundario: #000000;
+$color-terciario: white;
+
+// LISTAS
+$font-size:
+20px,
+30px,
+35px,
+50px;
+
+// EXTENDS
+
+%flex{
+    display:flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+.div-titulo .titulo-principal{
+    @extend %flex;
+}
+
+// MIXIN
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.div-titulo{
+    @include flex (flex, center, center);
+}
+
+.km{
+    @include flex (flex, center, center);
+}
+
+.destacados div{
+    @include flex (flex, center, center);
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.width-1200{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gradient{
+    background: $color-secundario;
+    background: linear-gradient(357deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,0.49343487394957986) 100%);
+}
