@@ -11,6 +11,8 @@ $font-size:
 35px,
 50px;
 
+
+
 // EXTENDS
 
 %flex{
@@ -24,6 +26,7 @@ $font-size:
 }
 
 // MIXIN
+
 
 @mixin flex ($flex, $justify, $align){
     display: $flex;
